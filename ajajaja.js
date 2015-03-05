@@ -20,7 +20,7 @@ function chat(data) {
 		}
 	}
 
-	if(from === "!Polkov") {
+	if(from === "Polkov") {
 		if(msg === "!meh") {
 			$('#meh').click();
 		}
