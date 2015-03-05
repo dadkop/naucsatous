@@ -1,5 +1,7 @@
 //vytvorené na bot účely :D
 
+API.setVolume(0);
+
 API.on(API.CHAT, chat);
 API.on(API.ADVANCE, advance);
 
