@@ -13,6 +13,11 @@ if (avatarsoff.length > 0) {
 	avatarsoff[0].click();
 }
 
+var videooff = $(".item.s-av.selected");
+if (videooff.length > 0) {
+	videooff[0].click();
+}
+
 API.sendChat("/cap 1");
 API.setVolume(0);
 
