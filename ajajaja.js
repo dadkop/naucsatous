@@ -1,5 +1,8 @@
 //vytvorené na bot účely :D
-
+var emojibuttonon = $(".icon-emoji-on");
+if (emojibuttonon.length > 0) {
+	emojibuttonon[0].click();
+}
 API.setVolume(0);
 
 API.on(API.CHAT, chat);
