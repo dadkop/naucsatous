@@ -3,6 +3,17 @@ var emojibuttonon = $(".icon-emoji-on");
 if (emojibuttonon.length > 0) {
 	emojibuttonon[0].click();
 }
+var onlyaudio = $(".item.s-vo");
+if (onlyaudio.length > 0) {
+	onlyaudio[0].click();
+}
+
+var avatarsoff = $(".item.s-dancing.selected");
+if (avatarsoff.length > 0) {
+	avatarsoff[0].click();
+}
+
+API.sendChat("/cap 1");
 API.setVolume(0);
 
 API.on(API.CHAT, chat);
