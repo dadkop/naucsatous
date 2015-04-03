@@ -44,13 +44,4 @@ function chat(data) {
 			$('#woot').click();
 		}
 	}
-
-	if(from === "♚ ҚRUㄕQUՏ ♚") {
-		if(msg === "!meh") {
-			$('#meh').click();
-		}
-		if(msg === "!woot") {
-			$('#woot').click();
-		}
-	}
 }
