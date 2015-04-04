@@ -1,4 +1,6 @@
 //vytvorené na bot účely :D
+
+$('#woot').click();
 var emojibuttonon = $(".icon-emoji-on");
 if (emojibuttonon.length > 0) {
 	emojibuttonon[0].click();
