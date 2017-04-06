@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WindCup | Registrácia</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+    <div id="bg">
+    <form method="POST" action="odosli.php">
+        <h4>Meno a Priezvisko kapitána tímu</h4>
+        <input type="text" name="meno" class="meno" required>
+        <h4>Email kapitána tímu</h4>
+        <input type="text" name="mail" class="mail" required>
+        <h4>SteamID kapitána tímu</h4>
+        <input type="text" name="predmet" class="predmet" required>
+        <h4>Logo tímu</h4>
+        <input type="file" name="pic" class="pic" accept="image/*" required>
+        <h4>Mená hráčov týmu v odrážkach</h4>
+        <textarea class="sprava" placeholder='Meno "nick" Priezvisko' required></textarea>
+        <br>
+        <input type="submit" name="odoslat" value="Odoslať" class="odoslat">
+    </form>
+    </div>
+</body>
+</html>
