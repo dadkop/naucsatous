@@ -295,7 +295,7 @@
             motdEnabled: true,
             motdInterval: 10,
             motd: "Sledujte nás také na Facebooku. https://www.facebook.com/Free-Run-667962563297505/?fref=ts",
-            filterChat: true,
+            filterChat: false,
             etaRestriction: false,
             welcome: true,
             opLink: null,
