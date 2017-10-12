@@ -1115,23 +1115,7 @@
             if (basicBot.userUtilities.getPermission(chat.uid) > 1) return false;
             var msg = chat.message;
             var containsLetters = false;
-            for (var i = 0; i < msg.length; i++) {
-                ch = msg.charAt(i);
-                if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z') || (ch >= '0' && ch <= '9') || ch === '^') containsLetters = true;
-            }
             if (msg === '') {
-                return true;
-            }
-            if (!containsLetters && (msg.length === 1 || msg.length > 3)) return true;
-            msg = msg.replace(/[ ,;.\/=~+%^*\-\\"'&@#]/g, '');
-            var capitals = 0;
-            var ch;
-            for (var i = 0; i < msg.length; i++) {
-                ch = msg.charAt(i);
-                if (ch >= 'A' && ch <= 'Z') capitals++;
-            }
-            if (capitals >= 40) {
-                API.sendChat(subChat(basicBot.chat.caps, {name: chat.un}));
                 return true;
             }
             msg = msg.toLowerCase();
