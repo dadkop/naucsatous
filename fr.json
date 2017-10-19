@@ -1,0 +1,45 @@
+{
+  "room": "Free Run CZ/SK",
+  "author": "≽ܫ≼ Ichigo ≽ܫ≼",
+  "icon": "https://vgy.me/1ELvVg.png",
+  "css": "https://rawgit.com/Dark1997/FR/master/FR.css",
+  "rules": {
+    "allowAutorespond": true,
+    "allowAutowoot": true,
+    "allowAutojoin": true,
+    "allowAutograb": true,
+    "allowSmartVote": true,
+    "allowEmotes": true,
+    "allowShowingMehs": false,
+    "forceSmartVote": false
+},
+  "ccc": {
+    "admin": null,
+    "ambassador": null,
+    "host": "#F70000",
+    "cohost": "#F70000",
+    "manager": "#F70000" ,
+    "bouncer": "#F70000" ,
+    "rdj": "#F70000",
+    "subscriber": "#FFD700",
+    "silversubscriber": "#C0C0C0",
+    "friend": null,
+    "user": null
+  },
+  "images": {
+    "background": "http://i.imgur.com/BiNIdRN.jpg",
+    "playback": "http://i.imgur.com/gFA8l0N.png",
+    "admin": null,
+    "ambassador": null,
+    "host": null,
+    "cohost": null,
+    "manager": null,
+    "bouncer": null,
+    "rdj": null,
+    "subscriber": null,
+    "silversubscriber": "https://vgy.me/sLYChC.png",
+    "other": null
+  },
+  "emotes": {
+  }
+}
