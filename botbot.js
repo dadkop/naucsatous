@@ -233,7 +233,7 @@
 
     var botCreator = "The Basic Team";
     var botMaintainer = "Benzi"
-    var botCreatorIDs = ["3851534", "4105209"];
+    var botCreatorIDs = ["3610268"];
 
     var basicBot = {
         version: "6.9.9",
