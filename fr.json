@@ -2,7 +2,7 @@
   "room": "Free Run CZ/SK",
   "author": "≽ܫ≼ Ichigo ≽ܫ≼",
   "icon": "https://vgy.me/1ELvVg.png",
-  "css": "https://rawgit.com/Dark1997/FR/master/FR.css",
+  "css": "https://cdn.jsdelivr.net/gh/Dark1997/FR/FR.css",
   "rules": {
     "allowAutorespond": true,
     "allowAutowoot": true,
